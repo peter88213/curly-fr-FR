@@ -7,10 +7,51 @@
 
 Option Explicit
 
+Dim isInitialized as boolean
+
+&apos; ----------------------------------------------------------------------
+&apos; Define language specific normal quotes
+&apos; Guillemets als Standard
+&apos; ----------------------------------------------------------------------
+&apos; No const declaration here because of the hard spaces
+&apos; requiring function calls &quot;Chr(160)&quot;.
+&apos; The strings are defined by the init subroutine.
+Private ChOpen1 as string
+Private ChClose1 as string
+Private ChOpen2 as string
+Private ChClose2 as string
+
+&apos; ----------------------------------------------------------------------
+&apos; Define regular expression for direct speech
+&apos; Regulärer Ausdruck für wörtliche Rede
+&apos; ----------------------------------------------------------------------
+Const SpeechRegex = &quot;«[^«]+»&quot;
+
+
+sub Init
+&apos; ----------------------------------------------------------------------
+&apos; Load OOTyW basis library
+&apos; ----------------------------------------------------------------------
+&apos; ChOpen/Close1 is for speech within speech
+&apos; ChOpen/Close2 is for initial quoting
+ChOpen1 = &quot;‹&quot;+Chr(160)
+ChClose1 = Chr(160)+&quot;›&quot;
+ChOpen2 = &quot;«&quot;+Chr(160)
+ChClose2 = Chr(160)+&quot;»&quot;
+
+GlobalScope.BasicLibraries.loadLibrary(&quot;OOTyW&quot;)
+isInitialized = True
+
+end sub
+
+
+
 sub Main
 &apos; ----------------------------------------------------------------------
 &apos; Replace keyboard glyphs by typographical correct glyphs.
 &apos; ----------------------------------------------------------------------
+
+if (isInitialized = False) then Init
 
 Common.Main
 Common.Em_dash
@@ -27,8 +68,10 @@ sub SmartQuotes
 &apos; Replace primes by french style quotation marks.
 &apos; ----------------------------------------------------------------------
 
+if (isInitialized = False) then Init
+
 Common.SubstitutePrimesII
-Common.CurlyQuotes(&quot;‹&quot;+Chr(160),Chr(160)+&quot;›&quot;,&quot;«&quot;+Chr(160),Chr(160)+&quot;»&quot;)
+Common.CurlyQuotes(ChOpen1,ChClose1,ChOpen2,ChClose2)
 
 end sub
 
@@ -39,8 +82,9 @@ Sub TypewriterView
 &apos; Go back to &quot;typewriter&quot; style. 
 &apos; ----------------------------------------------------------------------
 
-Common.SubstituteQuotes(&quot;‚&quot;,&quot;‘&quot;,&quot;„&quot;,&quot;“&quot;)
-Common.SubstituteQuotes(&quot;‹&quot;+Chr(160),Chr(160)+&quot;›&quot;,&quot;«&quot;+Chr(160),Chr(160)+&quot;»&quot;)
+if (isInitialized = False) then Init
+
+Common.SubstituteQuotes(ChOpen1,ChClose1,ChOpen2,ChClose2)
 Revert.PrimeII
 Revert.Ellipsis
 Revert.Dash
@@ -55,8 +99,9 @@ Sub SubstituteQuotes
 &apos; Exchange format for language conversion.
 &apos; ----------------------------------------------------------------------
 
-Common.SubstituteQuotes(&quot;‚&quot;,&quot;‘&quot;,&quot;„&quot;,&quot;“&quot;)
-Common.SubstituteQuotes(&quot;‹&quot;+Chr(160),Chr(160)+&quot;›&quot;,&quot;«&quot;+Chr(160),Chr(160)+&quot;»&quot;)
+if (isInitialized = False) then Init
+
+Common.SubstituteQuotes(ChOpen1,ChClose1,ChOpen2,ChClose2)
 
 End Sub
 
@@ -67,7 +112,9 @@ sub ShowDirectSpeech
 &apos; Gray-out all but direct speech.
 &apos; ----------------------------------------------------------------------
 
-Common.ShowDirectSpeech(&quot;«&quot;+Chr(160)+&quot;[^«&quot;+Chr(160)+&quot;]&quot;+Chr(160)+&quot;»|„[^„]+“&quot;)
+if (isInitialized = False) then Init
+
+Common.ShowDirectSpeech(SpeechRegex)
 
 end sub
 
@@ -77,6 +124,8 @@ sub StandardView
 &apos; ----------------------------------------------------------------------
 &apos; Set all text to default color.
 &apos; ----------------------------------------------------------------------
+
+if (isInitialized = False) then Init
 
 Common.StandardView
 
@@ -90,8 +139,9 @@ Sub ProtectQM
 &apos; Prevent hyphenation around quotation marks.
 &apos; ----------------------------------------------------------------------
 
-Common.ProtectQM(&quot;«&quot;+Chr(160),Chr(160)+&quot;»&quot;)
-Common.ProtectQM(&quot;„&quot;,&quot;“&quot;)
+if (isInitialized = False) then Init
+
+Common.ProtectQM(ChOpen2,ChClose2)
 
 End Sub
 
@@ -102,34 +152,13 @@ Sub UnprotectQM
 &apos; Allow hyphenation around quotation marks.
 &apos; ----------------------------------------------------------------------
 
-Common.UnprotectQM(&quot;«&quot;+Chr(160),Chr(160)+&quot;»&quot;)
-Common.UnprotectQM(&quot;„&quot;,&quot;“&quot;)
+if (isInitialized = False) then Init
+
+Common.UnprotectQM(ChOpen2,ChClose2)
 
 End Sub
 
 
-
-Sub NormalQuotes
-&apos; ----------------------------------------------------------------------
-&apos; Remplacer guillemets anglais par chevrons.
-&apos; ----------------------------------------------------------------------
-
-Common.SubstituteQuotes(&quot;‘&quot;,ChApostrophe,&quot;“&quot;,&quot;”&quot;)
-Common.CurlyQuotes(&quot;‹&quot;+Chr(160),Chr(160)+&quot;›&quot;,&quot;«&quot;+Chr(160),Chr(160)+&quot;»&quot;)
-
-End Sub
-
-
-
-Sub AlternativeQuotes
-&apos; ----------------------------------------------------------------------
-&apos; Remplacer chevrons par guillemets anglais.
-&apos; ----------------------------------------------------------------------
-
-Common.SubstituteQuotes(&quot;‹&quot;+Chr(160),Chr(160)+&quot;›&quot;,&quot;«&quot;+Chr(160),Chr(160)+&quot;»&quot;)
-Common.CurlyQuotes(&quot;‘&quot;,ChApostrophe,&quot;“&quot;,&quot;”&quot;)
-
-End Sub
 
 
 </script:module>
