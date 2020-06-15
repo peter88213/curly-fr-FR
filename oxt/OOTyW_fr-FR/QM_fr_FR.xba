@@ -39,7 +39,6 @@ ChClose1 = Chr(160)+&quot;›&quot;
 ChOpen2 = &quot;«&quot;+Chr(160)
 ChClose2 = Chr(160)+&quot;»&quot;
 
-GlobalScope.BasicLibraries.loadLibrary(&quot;OOTyW&quot;)
 isInitialized = True
 
 end sub
