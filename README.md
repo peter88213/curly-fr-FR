@@ -26,11 +26,11 @@
 
 * Installez-le à l'aide du Gestionnaire d'extension OpenOffice/Libreoffice.
 
-* Après l'installation (et le redémarrage de l'Office), vous trouverez un nouveau sous-menu pour chaque version linguistique dans le menu "Format".
+* Après l'installation (et le redémarrage de l'Office), vous trouverez un nouveau sous-menu pour chaque version linguistique dans le menu *Format*.
 
 * En option, vous pouvez ancrer une barre d'outils pour votre confort. Si vous n'avez pas besoin de la barre d'outils (par exemple parce que ce n'est pas votre langue maternelle), il suffit de la fermer.
 
-* Si aucun sous-menu supplémentaire n'apparaît dans le menu "Format", veuillez consulter le menu "Outils > Add-Ons".
+* Si aucun sous-menu supplémentaire n'apparaît dans le menu *Format*, veuillez consulter le menu *Outils > Add-Ons*.
 
 ## System requirements
 
@@ -39,25 +39,25 @@
 
 ## Conventions
 
-* Afin d'éviter toute confusion avec les guillemets simples, il est conseillé de remplacer les apostrophes de tête ou de queue par un croisillon "#" lorsque vous tapez.
+* Afin d'éviter toute confusion avec les guillemets simples, il est conseillé de remplacer les apostrophes de tête ou de queue par un croisillon (`#`) lorsque vous tapez.
 
-* Les croisillons "#" seront remplacés par des apostrophes lors de la conversion du "style de la machine à écrire" en "style de la langue".
+* Les croisillons (`#`) seront remplacés par des apostrophes lors de la conversion du  _style de la machine à écrire_  en  _style de la langue_ .
 
-* Lors de la conversion d'un "style de langue" en "style de machine à écrire", les apostrophes peuvent être remplacées automatiquement par des croisillons "#". 
+* Lors de la conversion d'un  _style de langue_  en  _style de machine à écrire_ , les apostrophes peuvent être remplacées automatiquement par des croisillons (`#`). 
 
-* Afin d'éviter toute confusion avec les traits d'union, il est conseillé de remplacer les tirets par des doubles traits d'union "--" lorsque vous tapez.
+* Afin d'éviter toute confusion avec les traits d'union, il est conseillé de remplacer les tirets par des doubles traits d'union (`--`) lorsque vous tapez.
 
-* Les doubles traits d'union "--" seront remplacés par des tirets lors de la conversion du "style de la machine à écrire" en "style de la langue".
+* Les doubles traits d'union (`--`) seront remplacés par des tirets lors de la conversion du  _style de la machine à écrire_  en  _style de la langue_ .
 
-* Lors de la conversion d'un "style de langue" en "style de machine à écrire", les tirets peuvent être remplacés automatiquement par des doubles tirets "--". 
+* Lors de la conversion d'un "style de langue" en  _style de machine à écrire_, les tirets peuvent être remplacés automatiquement par des doubles tirets (`--`). 
 
-* "Vue dialogue" n'est possible que dans un "style de langue".
+*  _Vue dialogue_  n'est possible que dans un  _style de langue_.
 
-* Lorsque l'on passe de la "Vue dialogue" à la "Vue normale", la couleur de la police de l'ensemble du document est réglée sur le noir. 
+* Lorsque l'on passe de la  _Vue dialogue_  à la  _Vue normale_, la couleur de la police de l'ensemble du document est réglée sur le noir. 
 
 * Vous pouvez installer plusieurs variantes linguistiques en parallèle. Utilisez le format d'échange pour convertir les guillemets entre les différentes langues.
 
-* La conversion du format d'échange n'est possible qu'à partir d'un "style de langue".
+* La conversion du format d'échange n'est possible qu'à partir d'un  _style de langue_.
 
 ## Credits
 
