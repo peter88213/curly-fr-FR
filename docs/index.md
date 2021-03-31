@@ -1,6 +1,6 @@
 ![Screenshot: "curly" menu](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/docs/Screenshots/Menu-fr.png)
 
-La fonction de formatage automatique de Writer peut convertir les guillemets et apostrophes "simples" du clavier de la machine à écrire en guillemets typographiques. Toutefois, cela ne fonctionne que pour les paragraphes auxquels le style "par défaut" a été attribué, et pour les guillemets une fois définis. 
+La fonction de formatage automatique de Writer peut convertir les guillemets et apostrophes "simples" du clavier de la machine à écrire en guillemets typographiques lors de l'importation de fichiers. Toutefois, cela ne fonctionne que pour les paragraphes auxquels est attribué le style de paragraphe "par défaut" et, selon la langue du document, pour les guillemets une fois définis. 
 
 Les extensions "curly quotes" convertissent les guillemets, les apostrophes, les tirets et les ellipses entre différents styles dépendant de la langue, quelle que soit la langue du document ou du système. Vous pouvez également reconvertir les glyphes  typographiques en "style machine à écrire" si vous le souhaitez. Cela fonctionne indépendamment du format de paragraphe que vous avez défini.
 
