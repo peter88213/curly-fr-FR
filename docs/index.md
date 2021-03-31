@@ -8,7 +8,12 @@
 
 * Revenir aux caractères de la machine à écrire.
 
-* Des extensions sont disponibles pour fr-FR, de-DE, de-CH, en-US, en-GB.
+* Des extensions sont disponibles pour 
+ fr-FR, 
+ [de-CH](https://peter88213.github.io/curly-de-CH), 
+ [de-DE](https://peter88213.github.io/curly-de-DE), 
+ [en-US](https://peter88213.github.io/curly-en-US), 
+ [en-GB](https://peter88213.github.io/curly-en-GB).
 
 * Conversion d'une langue à une autre via un format d'échange.
 
