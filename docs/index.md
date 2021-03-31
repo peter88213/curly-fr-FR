@@ -40,6 +40,8 @@
 
 * Si aucun sous-menu supplémentaire n'apparaît dans le menu *Format*, veuillez consulter le menu *Outils > Add-Ons*.
 
+[journal des modifications](changelog)
+
 ## Utiliser
 
 Consultez le [mode d'emploi](usage)
