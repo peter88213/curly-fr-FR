@@ -3,9 +3,7 @@
 Smart quotes, typographical apostrophes, ellipses and so on. 
  Adds a toolbar and a submenu in the "Format" menu.
 
-* [Description](https://peter88213.github.io/curly-fr-FR)
-* [Download page](https://github.com/peter88213/curly-fr-FR/releases/latest)
-
+For more information, see the [project homepage](https://peter88213.github.io/curly-fr-FR) with description and download instructions.
 
 ## Want to fork this project?
 
