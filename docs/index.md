@@ -1,4 +1,4 @@
-![Screenshot: "curly" menu](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/docs/Screenshots/Menu-fr.png)
+![Screenshot: "curly" menu](Screenshots/Menu-fr.png)
 
 Lors de la post-édition d'un texte existant, la fonction de formatage automatique de Writer peut convertir les guillemets "simples" et les apostrophes du clavier de la machine à écrire en glyphes typographiques. Toutefois, cela ne fonctionne que pour les paragraphes auxquels est attribué le style de paragraphe "par défaut" et, selon la langue du document, pour les guillemets une fois définis. 
 
@@ -27,7 +27,7 @@ Vous pouvez installer plusieurs variantes linguistiques en parallèle. Utilisez 
 
 * Vue de dialogue pour identifier la parole directe.
 
-![Screenshot: Show direct speech in OpenOffice Writer](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/docs/Screenshots/DirectSpeech-fr.png)
+![Screenshot: Show direct speech in OpenOffice Writer](Screenshots/DirectSpeech-fr.png)
 
 ## System requirements
 
