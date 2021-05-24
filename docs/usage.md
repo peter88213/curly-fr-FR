@@ -1,4 +1,6 @@
-[Page d'accueil](index)
+[Page d'accueil](index) > Mode d'emploi
+
+------------------------------------------------------------------------
 
 ## Mode d'emploi
 
