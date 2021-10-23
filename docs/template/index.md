@@ -58,7 +58,11 @@ Téléchargez la variante qui correspond à votre installation Office :
 
 Consultez le [mode d'emploi](usage)
 
-## Credits
+## Recevoir des mises à jour
+
+Cette extension prend en charge le mécanisme de mise à jour d'OpenOffice/LibreOffice. Vous pouvez laisser le gestionnaire d'extension vérifier les mises à jour de temps en temps pour obtenir la dernière version. 
+
+## Crédits
 
 [OpenOffice Extension Compiler](https://wiki.openoffice.org/wiki/Extensions_Packager#Extension_Compiler) par Bernard Marcelly.
 
