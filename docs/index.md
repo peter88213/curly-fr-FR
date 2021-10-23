@@ -31,14 +31,14 @@ Vous pouvez installer plusieurs variantes linguistiques en parallèle. Utilisez 
 
 ## System requirements
 
-* __OpenOffice.org 3.x ou Apache OpenOffice 4.x ou LibreOffice 6.x__
+* __OpenOffice.org 3.x ou Apache OpenOffice 4.x ou LibreOffice 6+__
 * __Java__ (OpenOffice en a besoin pour l'exécution de macros)
 
 ## Télécharger et installer
 
 Téléchargez la variante qui correspond à votre installation Office :
 
-[Variante pour LibreOffice 6.x (curly_fr-FR-L-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-L-3.2.1.oxt)
+[Variante pour LibreOffice 6+ (curly_fr-FR-L-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-L-3.2.1.oxt)
 
 [Variante pour Apache OpenOffice 4.x (curly_fr-FR-A-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-A-3.2.1.oxt)
 
