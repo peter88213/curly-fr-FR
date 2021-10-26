@@ -38,11 +38,11 @@ Vous pouvez installer plusieurs variantes linguistiques en parallèle. Utilisez 
 
 Téléchargez la variante qui correspond à votre installation Office :
 
-[Variante pour LibreOffice 6+ (curly_fr-FR-L-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-L-3.2.1.oxt)
+[Variante pour LibreOffice 6+ (curly_fr-FR-L-3.2.2.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-L-3.2.2.oxt)
 
-[Variante pour Apache OpenOffice 4.x (curly_fr-FR-A-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-A-3.2.1.oxt)
+[Variante pour Apache OpenOffice 4.x (curly_fr-FR-A-3.2.2.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-A-3.2.2.oxt)
 
-[Variante pour OpenOffice.org 3.x (curly_fr-FR-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-3.2.1.oxt)
+[Variante pour OpenOffice.org 3.x (curly_fr-FR-3.2.2.oxt)](https://raw.githubusercontent.com/peter88213/curly-fr-FR/master/curly_fr-FR-3.2.2.oxt)
 
 * Installation dès le téléchargement, en double-cliquant sur le fichier téléchargé ou via le gestionnaire d'extensions d'OpenOffice/LibreOffice.
 
