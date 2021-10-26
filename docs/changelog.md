@@ -4,7 +4,7 @@
 
 ## Changelog
 
-###v3.2.2 Optional update
+### v3.2.2 Optional update
 
 Modify the "Back to standard view" icon for better display in LibreOffice 7.1.
 
